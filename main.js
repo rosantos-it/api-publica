@@ -1,9 +1,8 @@
-
 const getCatButton = document.querySelector('#get-cat-button');
 const catImageContainer = document.querySelector('#cat-image-container');
 
 function getCat() {
-    fetch('http://placekitten.com/200/300')
+    fetch('https://placekitten.com/200/300')
         .then(response => {
 
             if (response.ok) {
